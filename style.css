@@ -1,0 +1,136 @@
+
+/* navbar */
+
+
+.container-fluid {
+    background-color: rgb(119,17,19);
+    height: 13vh;   
+     
+}
+
+.navbar {
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+    
+}
+
+.navbar-collapse {
+    clear: left;
+    float: left;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: -3%;
+    text-align: center;
+}
+
+.kmmkLogo {
+    position: relative;
+    height: 7rem;
+    width: 7rem;
+    left: 10%;
+   
+}
+
+/*SlideShow*/
+
+
+.picturesContainer {
+    position: relative;
+}
+
+
+.carousel-inner {
+    height: 40rem;
+    margin-top: 0;
+    z-index: -1;
+    position: relative;
+    text-align: center;
+}
+
+.card {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    right: 60%;
+    width: 20%;
+    padding: 5px;
+    border-radius: 30px;
+    opacity: 0.9;
+    background: #ffffff;
+    box-shadow: 15px 15px 30px #ffffff,
+             -15px -15px 30px #ffffff;
+    z-index: 1;
+}
+
+.card:hover {
+    background: #181818;
+}
+
+
+.card-info {
+    --color: #181818;
+    color: var(--color);
+    justify-content: center;
+    align-items: center;
+
+    border-radius: .7rem;
+}
+/*
+opacity: 0.9;
+    font-size:xx-large;
+    position:absolute;
+    top: 5%;
+    left: 40%;
+    right: 60%;
+    width: 20%;
+    font-family: "Raleway", sans-serif;
+    
+    vertical-align: middle;
+    border:3px solid #6e6e6e;
+    border-radius:24px;
+    -moz-border-radius:24px;
+    -webkit-border-radius:24px;
+    -webkit-box-shadow:0px 0px 50px 5px #d4d4d4 ;
+    -moz-box-shadow:0px 0px 50px 5px #d4d4d4 ;
+    box-shadow:0px 0px 50px 10px #d4d4d4 ;
+*/
+
+.custom-shape-divider-bottom-1678834981 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1678834981 svg {
+    position: relative;
+    display: block;
+    width: calc(108% + 1.3px);
+    height: 47px;
+}
+
+.custom-shape-divider-bottom-1678834981 .shape-fill {
+    fill: #FFFFFF;
+}
+/*Bottom container */
+
+.bottomContainer {
+    overflow: hidden;
+}
+
+.bottomContainerItem {
+    padding-left: 30px;
+    width: 25%;
+    float: left;
+    text-align: center;
+    color: #7A7A7A;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
